@@ -1,0 +1,12 @@
+43 error Error: Command failed with exit code 1: git add -- packages/header/package.json packages/header/package-lock.json packages/footer/package.json packages/footer/package-lock.json lerna.json package-lock.json
+43 error The following paths are ignored by one of your .gitignore files:
+43 error lerna-template-demo/package-lock.json
+43 error lerna-template-demo/packages/footer/package-lock.json
+43 error lerna-template-demo/packages/header/package-lock.json
+43 error hint: Use -f if you really want to add them.
+43 error hint: Turn this message off by running
+43 error hint: "git config advice.addIgnoredFile false"
+43 error     at makeError (/Users/turbochao/Desktop/work/lerna/lerna-template-demo/node_modules/execa/lib/error.js:60:11)
+43 error     at handlePromise (/Users/turbochao/Desktop/work/lerna/lerna-template-demo/node_modules/execa/index.js:118:26)
+43 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+43 error     at async Promise.all (index 0)
